@@ -1,0 +1,29 @@
+{
+  "name": "plataforma-evaluaciones-mvp",
+  "version": "1.0.0",
+  "description": "MVP para publicar y consultar evaluaciones con código de acceso.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "keywords": [
+    "evaluaciones",
+    "educacion",
+    "express",
+    "sqlite"
+  ],
+  "author": "Albert Noel Jordan Fria",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.0",
+    "helmet": "^7.1.0",
+    "sqlite3": "^5.1.7",
+    "xss": "^1.0.15"
+  }
+}
